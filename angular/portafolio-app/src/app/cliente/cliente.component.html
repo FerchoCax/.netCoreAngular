@@ -1,0 +1,10 @@
+<div>
+    
+
+    <ul>
+        <li *ngFor="let cliente of clientes">{{cliente.idCliente}} - {{cliente.nombres}} - {{cliente.apellidos}} - {{cliente.nit}} -- {{cliente.telefono}}</li> 
+        
+    </ul>
+
+    {{clientes | json}} 
+</div>
